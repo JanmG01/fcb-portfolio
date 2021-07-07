@@ -1,54 +1,165 @@
-/*element  {
-	property: value;
-}*/
-
-* { 
+*{ 
 	font-family: 'Roboto', sans-serif;
 }
-
-h1, h2{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-}
-
-#landing {
-	height: 80vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: transparent;
-}
-
-img{
-	height: 250px;
-	width: 250px;
-	border-radius: 150px;
-}
-#gallery {
-	padding: 5vh 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border-radius: 6px;
+html{
+	scroll-behavior: smooth;
 }
 
 ul{ 
 	list-style: none;
 	padding: 0;
 }
-.tools{
-	border: 5px solid #f2f2f2;
-	width: 75%;
-	margin: 20px;
-	padding: 20px;
-	color: white;
+h1{
+	text-align: center;
+		color: #4CAF50;
+	font-size: 3.5em;
 }
-h2{
-	color: #007bff;
-}
-html{
-	scroll-behavior: smooth;
+ h3{
+	color:#4CAF50;
+	}
 
+.Banner{
+	background-image: url("images/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 95vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: right;
+}
+.Banner h2{
+  text-transform: uppercase;
+  color: #4CAF50;
+  margin-left: 10%;
+}
+.Banner p{
+	color: white;
+	margin-left: 10%;
+    font-size:1.3em;
+}
+.Banner img{
+	position: absolute;
+	top: 120px;
+	right:150px;
+	width:220px;
+	border-radius: 150px;
+}
+					/*ABOUT ME*/
+.container-1{
+	min-height: 75vh;
+	padding: 25px 15px;
+}
+.name{
+	color: #4CAF50;
+	font-size: 1.3em;
+	margin-left: 35%;
+}
+
+.About p{
+	text-align: justify;
+	margin:0px 25px;
+}
+.image{
+	float: left;
+	width:150px;
+	margin-right: 5.5px;
+
+
+}
+/*SKILLS*/
+.container-2{
+	background-image: url("images/contact form.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 50px 10px;
+}
+.Skills{
+	border:2px solid white ;
+	-moz-box-shadow: 0 0 15px black;
+    -webkit-box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px black;
+	margin: 0 25%;
+	width:55%;
+	height:180px; 
+	padding:5px;
+}
+.Skills img{
+	height: 80px;
+	width:80px;
+}
+.container-3{
+	padding: 25px 10px;
+}
+.Projects img{
+	background-color: #4CAF50;
+	display: block;
+	width: 350px;
+	height:200px;
+	margin:10px auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+.Projects p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+}
+ .Projects img:hover{
+    -moz-box-shadow: 0 0 10px black;
+    -webkit-box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
+    }
+/*Contact*/
+.container-4{
+	background-image: url("images/contact form.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto;
+	padding: 25px;
+	min-height: 60vh;
+}
+.Contact{
+	background-color:white;
+	font-size: 1em;
+	float:left;
+	width:30%;
+	border:1px solid grey;
+	border-radius:5px;
+	box-sizing:border-box;
+	-moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+	padding: 10px;
+	margin:0 10px;
+	text-align: center;
+}
+/*Footer*/
+.footer{
+	background-color: #333;
+	text-align: center;
+	color: white;
+	padding:15px;
+}
+
+
+/*Responsive*/
+@media(max-width: 600px){
+	.Skills{
+		width:60%;
+		height: 50%;
+		}
+		.Skills img{
+			margin-right: 5px;
+			margin-top:4px;
+		}
+		.Contact{
+			float: none;
+			width: 70%;
+			margin: 0 50px 5px 50px;
+		}
+		.Banner img{
+			left:65px;
+			top:350px;
+		}
 }
