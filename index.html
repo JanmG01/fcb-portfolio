@@ -1,74 +1,111 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta charset="utf-8">
-	<title>Janmari Garcia |Web Developer Portfolio</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google fonts -->
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Google fonts -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+      <title>Web Portfolio</title>
+  </head>
 
-	<!-- Google fonts -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Roboto&display=swap" rel="stylesheet">
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+    <a class="navbar-brand" href="#">Janmari Garcia's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Skills">My Skills</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Projects">My Projects</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div class="Banner" id="Home" >
+    <h2>Hi I am Janmari Garcia</h2>
+      <p> <img src="images/Profile.png" alt="My Profile">An Aspiring Front-end Web Developer 
+     </p>
+       
+</div>
+<div class="container-1" id="About">
+    <div class="About">
+      <h1>About Me</h1>
+          <p> 
+            <img class="image" src="images/me.jpg" alt="My Profile"/>
+            <p class="name">Hi I am Janmari Garcia</p>
+            A graduate of Bachelor of Science in Information Technology.<br>
+             I'm from Sariaya, Quezon, 23 years old. I can create websites using Wordpress, and Google sites. I'm interested and eager to learn
+             more about Web development. I'm knowledgable in HTML, CSS, Bootstrap, Java Script, and PHP also I can create websites using
+            Google Sites and Wordpress.</p>
+   </div>
+  </div>
+  <div class="container-2" id="Skills">
+      <div class="Skills">
+        <h1>My Skills</h1>
+        <img src="images/html.png" alt="html">
+      <img src="images/css.png" alt="css">
+      <img src="images/js.png" alt="js">
+      <img src="images/mysql.png" alt="css">
+      <img src="images/php.png" alt="css">
+      
+    </div>
+    </div>
 
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <div class="container-3" id="Projects">
+        <div class="Projects" id="Projects">
+          <h1>My Latest Works</h1>
+          <p>I was able to create a Website for the library of CSTC Sariaya using Google Sites.</p>
+          <a href="https://sites.google.com/view/cstclibrary/home"><img src="images/cstclibrary.png" alt="html"></a>
+              <p>During my spare time I created a blog for my sister using Wordpress.</p>
+              <a href="https://thegarkside.wordpress.com/"><img src="images/thegarkside.png" alt="html"></a>    
+      </div>
+    </div>
+    <div class="container-4" id="Contact">
+       <h1>Contact Me</h1>
+        <div class="Contact" id="Contact">
+          <h3>Cellphone No.</h3>
+          <p>09665294478</p>
+        </div> 
 
-	<!-- External CSS -->
-	<link rel="stylesheet" href="style.css">
+        <div class="Contact">
+          <h3>Email</h3>
+          <p>garciajanm110@gmail.com</p>
+        </div>
 
-</head>
-<body>
-	<!-- navbar start -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-	  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav mx-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#landing">Home</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#gallery">Gallery</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-	<!-- navbar end -->
-	<div class="container-fluid">
-		<!-- landing section start -->
-	<section class="jumbotron text-center" id="landing">
-		<h1>Full Stack Web Developer</h1>
-		<p>Hi! My name is Janmari and I love building things from scratch.2</p>
-		<img src="images/img.png">
-	</section>
-		<!-- landing section end -->
-
-		<!-- gallery section start -->
-	<section class="text-center bg-dark mb-3" id ="gallery">
-
-			<div class="tools">
-			<h2>Language I Speak</h2>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-			</ul>
-		</div>
-	<div class="tools">
-			<h2>Tools I use</h2>
-			<ul>
-				<li>Git Bash /Terminal</li>
-				<li>Sublime Test</li>
-				<li>GitHub</li>
-				<li>Google Chrome</li>
-			</ul>
-	</div>
-		</section>
-		<!-- gallery section end -->
-	</div>
-	
-	<!-- Bootstrap-->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-</body>
+        <div class="Contact">
+          <h3>Address:</h3>
+          <p>California St., Sariaya, Quezon</p>
+        </div>
+</div>
+      <div class="container-5">
+        <div class="footer">
+      <h3>Janmari Garcia</h3>
+      <p>Copyright © 2021. All rights reserved</p>
+        </div>
+    </div>
+  </body>
 </html>
