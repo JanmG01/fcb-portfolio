@@ -47,26 +47,28 @@ h1{
 }
 					/*ABOUT ME*/
 .container-1{
-	min-height: 75vh;
-	padding: 25px 15px;
+	height: auto;
+	margin:0 80px;
+}
+.About img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width:200px;
 }
 .name{
 	color: #4CAF50;
-	font-size: 1.3em;
-	margin-left: 35%;
-}
+	font-size: 1.7em;
 
+}
 .About p{
 	text-align: justify;
-	margin:0px 25px;
-}
-.image{
-	float: left;
-	width:150px;
-	margin-right: 5.5px;
-
 
 }
+.About{
+	margin-top: 10px;
+}
+
 /*SKILLS*/
 .container-2{
 	background-image: url("images/contact form.jpg");
@@ -76,6 +78,7 @@ h1{
 }
 .Skills{
 	border:2px solid white ;
+	background-color: white;
 	-moz-box-shadow: 0 0 15px black;
     -webkit-box-shadow: 0 0 15px black;
     box-shadow: 0 0 15px black;
@@ -145,14 +148,23 @@ h1{
 
 /*Responsive*/
 @media(max-width: 600px){
+	h1{
+		font-size: 2.5em;
+	}
+	.container-1{
+		margin:0 25px;
+		text-align: justify;
+	}
 	.Skills{
-		width:60%;
+		width:90%;
 		height: 50%;
+		margin:0 15px 0 15px;
 		}
 		.Skills img{
-			margin-right: 5px;
-			margin-top:4px;
+			width: 50px;
+			margin-left: 5px;
 		}
+	
 		.Contact{
 			float: none;
 			width: 70%;
