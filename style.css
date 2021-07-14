@@ -22,7 +22,8 @@ h1{
 	background-image: url("images/header.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
-	min-height: 95vh;
+	background-size: cover;
+	min-height: 120vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -74,7 +75,9 @@ h1{
 	background-image: url("images/contact form.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	padding: 50px 10px;
+
 }
 .Skills{
 	border:2px solid white ;
@@ -118,7 +121,7 @@ h1{
 	background-image: url("images/contact form.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: auto;
+	background-size: cover;
 	padding: 25px;
 	min-height: 60vh;
 }
@@ -162,7 +165,7 @@ h1{
 		}
 		.Skills img{
 			width: 50px;
-			margin-left: 5px;
+			margin-left: 8px;
 		}
 	
 		.Contact{
@@ -171,7 +174,11 @@ h1{
 			margin: 0 50px 5px 50px;
 		}
 		.Banner img{
-			left:65px;
-			top:350px;
+			width:150px;
+			display: block;
+			top:315px;
+  			left: auto;
+  			right: auto;
+  			width: 50%;	
 		}
 }
