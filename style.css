@@ -176,11 +176,9 @@ h1{
 		}
 		.inner-container img{
 			width:150px;
-			display: block;
-			top:315px;
-  			left: auto;
-  			right: auto;
-  			width: 50%;
+			top:10px;
+			left:50px;
+			
   			
 		
 		}
