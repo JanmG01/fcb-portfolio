@@ -27,25 +27,26 @@ h1{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	position: relative;
+	position:relative;
+	z-index: 10;
 }
-.inner-container h2{
-  text-transform: uppercase;
+.Banner h2{
+	text-transform: uppercase;
   color: #4CAF50;
   margin-left: 10%;
-  font-size: 1.7em;
 }
-.inner-container p{
-	color: white;
+.Banner p{
+		color: white;
 	margin-left: 10%;
     font-size:1.3em;
 }
-.inner-container img{
-	position: absolute;
-	top: 120px;
-	right:150px;
-	width:220px;
-	border-radius: 150px;
+.inner-banner img{
+  position: absolute;
+  top:120px;
+  right:150px;
+  z-index: 0;
+  width:220px;
+  border-radius: 150px;
 }
 					/*ABOUT ME*/
 .container-1{
@@ -174,11 +175,13 @@ h1{
 			width: 70%;
 			margin: 0 50px 5px 50px;
 		}
-		.inner-container img{
+		.Banner img{
 			width:150px;
-			top:10px;
-			left:50px;
-			
+			display: block;
+			top:315px;
+  			left: auto;
+  			right: auto;
+  			width: 50%;
   			
 		
 		}
