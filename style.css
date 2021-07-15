@@ -23,23 +23,24 @@ h1{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	min-height: 120vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: right;
+	position: relative;
 }
-.Banner h2{
+.inner-container h2{
   text-transform: uppercase;
   color: #4CAF50;
   margin-left: 10%;
+  font-size: 1.7em;
 }
-.Banner p{
+.inner-container p{
 	color: white;
 	margin-left: 10%;
     font-size:1.3em;
 }
-.Banner img{
+.inner-container img{
 	position: absolute;
 	top: 120px;
 	right:150px;
@@ -173,12 +174,14 @@ h1{
 			width: 70%;
 			margin: 0 50px 5px 50px;
 		}
-		.Banner img{
+		.inner-container img{
 			width:150px;
 			display: block;
 			top:315px;
   			left: auto;
   			right: auto;
-  			width: 50%;	
+  			width: 50%;
+  			
+		
 		}
 }
