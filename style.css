@@ -32,21 +32,21 @@ h1{
 }
 .Banner h2{
 	text-transform: uppercase;
-  color: #4CAF50;
-  margin-left: 10%;
+  	color: #4CAF50;
+  	margin-left: 10%;
 }
 .Banner p{
-		color: white;
+	color: white;
 	margin-left: 10%;
     font-size:1.3em;
 }
 .inner-banner img{
-  position: absolute;
-  top:120px;
-  right:150px;
-  z-index: 0;
-  width:220px;
-  border-radius: 150px;
+  	position: absolute;
+ 	top:120px;
+  	right:150px;
+  	z-index: 0;
+  	width:220px;
+  	border-radius: 150px;
 }
 					/*ABOUT ME*/
 .container-1{
@@ -182,7 +182,5 @@ h1{
   			left: auto;
   			right: auto;
   			width: 50%;
-  			
-		
 		}
 }
