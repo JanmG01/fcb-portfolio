@@ -11,7 +11,7 @@ ul{
 }
 h1{
 	text-align: center;
-		color: #4CAF50;
+	color: #4CAF50;
 	font-size: 3.5em;
 }
  h3{
@@ -34,6 +34,7 @@ h1{
 	text-transform: uppercase;
   	color: #4CAF50;
   	margin-left: 10%;
+	font-size:1.5em;
 }
 .Banner p{
 	color: white;
